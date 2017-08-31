@@ -17,8 +17,9 @@ $(function() {
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
+      var currentURL = window.location.origin;
       $.ajax({
-        url: "././mail/contact_me.php",
+        url: currentURL + "/mail",
         type: "POST",
         data: {
           name: name,
