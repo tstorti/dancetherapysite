@@ -22,7 +22,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(express.static(__dirname + '/'));
 
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "./index.html"));
+    res.sendFile(path.join(__dirname, ".index.html"));
 });
 
 app.post("/mail", function(req, res){
