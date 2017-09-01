@@ -28,7 +28,7 @@ app.get("/", function(req, res) {
 app.post("/mail", function(req, res){
   
     const msg = {
-        to: 'tonystorti@gmail.com',
+        to: 'info@chicagodancetherapy.com',
         from: 'info@chicagodancetherapy.com',
         subject: 'Website Contact Us Request',
         text: "From: "+req.body.name+" Email: "+req.body.email+" Phone "+ req.body.phone+" Message: "+req.body.message,
