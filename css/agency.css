@@ -32,21 +32,36 @@ section {
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
+    line-height: 130%;
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section h3.section-subheading2 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
+    line-height: 130%;
+    font-style: italic;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  section h3.section-subheading3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
     font-style: italic;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section ul {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 10px; }
+  section ul.margin {
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+  section .marginBot {
     margin-bottom: 50px; }
 
 @media (min-width: 768px) {
@@ -146,7 +161,8 @@ header.masthead {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      margin-bottom: 25px;
+      margin-bottom: 80px;
+      margin-top: 40px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
@@ -164,7 +180,7 @@ header.masthead {
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
-      margin-bottom: 50px;
+      margin-bottom: 75px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
 

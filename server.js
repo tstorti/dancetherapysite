@@ -29,13 +29,14 @@ app.post("/mail", function(req, res){
   
     const msg = {
         to: 'tonystorti@gmail.com',
-        from: 'contact-form@chicagodancetherapy.com',
+        from: 'info@chicagodancetherapy.com',
         subject: 'Website Contact Us Request',
         text: "From: "+req.body.name+" Email: "+req.body.email+" Phone "+ req.body.phone+" Message: "+req.body.message,
         html:   '<h4>From: '+req.body.name+'</h4>'+
                 '<h4>Email: '+req.body.email+'</h4>'+
                 '<h4>Phone: '+req.body.phone+'</h4>'+
-                '<div>Message: '+req.body.message+'</h4>',
+                '<h4>Message:</h4>'+
+                '<div>'+req.body.message+'</h4>',
     };
     console.log(msg);
     sgMail.send(msg);
