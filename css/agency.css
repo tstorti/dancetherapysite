@@ -68,6 +68,9 @@ section {
   section {
     padding: 150px 0; } }
 
+.marginBot {
+  margin-bottom: 50px; }
+
 ::-moz-selection {
   background: #AC81D1;
   text-shadow: none; }
